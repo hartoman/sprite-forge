@@ -193,7 +193,7 @@ With **small motions** (≤ 30°, Battle Brothers style) only a thin sliver behi
 ## Open decisions
 
 - The first presets after biped.
-- Mesh deformation (true bending) in the first version, or shader wobble only.
+- ~~Mesh deformation in the first version~~ **Decided:** v1 uses a plain Node2D hierarchy (rigid parts). Skeleton2D + Polygon2D bending may come later as a per-part "bendy" option (good for sketches, tails, tentacles); the rig data (bones + angles) stays the same either way.
 - File formats: the project file (JSON + images), motion preset format, export JSON schema.
 - Repo name and location (working name: `sprite-forge`).
 

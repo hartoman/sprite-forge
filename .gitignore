@@ -1,0 +1,10 @@
+# Godot
+.godot/
+*.tmp
+/export/
+/build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

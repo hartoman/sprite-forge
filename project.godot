@@ -1,0 +1,23 @@
+; Engine configuration file.
+; The Godot editor rewrites this file when it first opens the project; that's expected.
+
+config_version=5
+
+[application]
+
+config/name="Sprite Forge"
+config/description="Turns one parts image into animated sprite sheets."
+run/main_scene="res://src/main.tscn"
+config/features=PackedStringArray("4.3")
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
