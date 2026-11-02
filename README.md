@@ -12,7 +12,7 @@ See [docs/DESIGN.md](docs/DESIGN.md) for the design.
 | `src/core/imaging/` | Background key, piece finding, pivot guessing, downscaling |
 | `src/rig/` | Builds the Node2D part hierarchy and applies poses |
 | `src/bake/` | Renders frames off-screen and writes sheets + metadata |
-| `src/ui/` | The editor screens, built in code |
+| `src/ui/` | The editor window, built in code; `steps/` holds one inspector panel per workflow step |
 | `presets/` | Body-type presets (parts, bones, motions, prompt) as JSON |
 | `profiles/` | Per-game output profiles as JSON |
 | `samples/` | Test inputs (not imported by Godot) |
